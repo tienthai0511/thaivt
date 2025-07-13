@@ -1,2 +1,1 @@
-// hello guys
-!addcom hello $(eval q=`$(1)`; q==`guys`||q==`null`?`Thank you $(user), welcome to my stream!`:q==`host`?`Welcome to my stream, guys please connect to $(user)'s channel at https://www.youtube.com/channel/@$(@yackodepo)`:` `)
+!addcom hello $(eval q=`$(1)`; q==`guys`||q==`null`?`¡Gracias, $(user), y bienvenidos a mi stream!`:q==`host`?`¡Bienvenidos a mi stream, chicos! Por favor, conéctense al canal de YackoDepo en https://www.youtube.com/channel/@yackodepo`:` `)
